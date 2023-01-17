@@ -1,0 +1,1 @@
+ffmpeg -i "16x9-input-video.mp4" -i "9x16-input-image.png" -filter_complex "[0:v]pad=iw:2*trunc(iw*16/18):(ow-iw)/2:(oh-ih)/2,setsar=1,scale=1080:1920[v0];[1:v]scale=iw:ih[v1];[v0][v1]overlay=0:0" -c:a copy "9x16-output-video.mp4"
