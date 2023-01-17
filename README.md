@@ -1,4 +1,4 @@
-# Create 9:16 Aspect Ratio Video With Overlay
+# Create Different Aspect Ratio Videos With Overlay froom a 16:9 Video
 
 FFmpeg command that allows you to create a 9:16 aspect ratio video with an image overlay.
 
