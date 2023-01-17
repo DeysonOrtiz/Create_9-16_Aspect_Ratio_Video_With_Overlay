@@ -1,4 +1,4 @@
-# Create Different Aspect Ratio Videos With Overlay from a 16:9 Video
+# FFMPEG to Create Different Aspect Ratio Videos With Overlay from a 16:9 Video
 
 FFmpeg command that allows you to create a 9:16 aspect ratio video with an image overlay.
 
